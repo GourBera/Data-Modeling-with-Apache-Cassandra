@@ -40,24 +40,15 @@ The directory of CSV files partitioned by date. Below are examples of filepaths 
 
 > The project template includes one Jupyter Notebook file:
 
+>> Modeling NoSQL database or Apache Cassandra database**
+
 >> Process the event_datafile_new.csv dataset to create a denormalized dataset
+
 >> Model the data tables keeping in mind the queries you need to run
+
 >> Based on provided queries model data tables
+
 >> Load the data into tables create in Apache Cassandra and run queries and validate
-
-
-### **Project Template**
-Steps to follow to complete each component of this project
-
-> **Modeling NoSQL database or Apache Cassandra database**
-
->> 1. Design tables to answer the queries outlined in the project template
->> 2. Write Apache Cassandra CREATE KEYSPACE and SET KEYSPACE statements
->> 3. Develop your CREATE statement for each of the tables to address each question
->> 4. Load the data with INSERT statement for each of the tables
->> 5. Include IF NOT EXISTS clauses in CREATE statements to create tables only if the tables do not already exist. Also include DROP TABLE statement for each table, this way it can run drop and create tables whenever we want to reset database and test ETL pipeline
->> 6. Test by running the proper select statements with the correct WHERE clause
-
 
 
 ### **Build ETL Pipeline**
